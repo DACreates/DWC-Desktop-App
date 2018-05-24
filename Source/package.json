@@ -1,0 +1,22 @@
+{
+  "name": "DWC",
+  "productName": "DWC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^1.8.6"
+  },
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=./printer.ico --prune=true --out=release-builds",
+    "package-win": "electron-packager . DWC --overwrite --asar=true --platform=win32 --arch=ia32 --icon=./printer.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"DWC\"",
+    "package-linux": "electron-packager . DWC --overwrite --asar=true --platform=linux --arch=x64 --icon=./printer.ico --prune=true --out=release-builds"
+  },
+  "author": "David Abbishaw",
+  "license": "ISC",
+  "dependencies": {
+    "electron-config": "^1.0.0",
+    "electron-store": "^1.3.0"
+  }
+}
