@@ -1,5 +1,5 @@
 
-Download zip, extract, edit URL.prefs with the IP or URL of your printer and then run DWC.exe.
+Download DWC-win32-ia32.zip, extract, edit URL.prefs with the IP or URL of your printer and then run DWC.exe.
 
 
 Release Notes:
