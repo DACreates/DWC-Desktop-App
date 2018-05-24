@@ -1,3 +1,7 @@
 Instructions.
 
 Open the URL.prefs file and change the address to the IP address or hostname of your printer,  no http required.
+
+Restart the app to have it connect to your printer.
+
+For multiple printers,  just have multiple copies of the app with a different URL.prefs file.
